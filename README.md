@@ -10,3 +10,5 @@ This is the Demo for using PreidxUI components escapially the TimeSeriesChart to
 - `event-data` is the time that you want to display when some important events happen.
 - `event-config` is the configuration of the events including the logo and color.
 - `x-axis-config` & `y-axis-config` are the configration for x and y axes.
+The demo picture is shown as following:
+![image](https://github.com/JasonZhangHkust/PreidxUI-TimeSeriesChart-yi-webapp/blob/master/timeSeriesChart.png)
