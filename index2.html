@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+ <html>    
+  <head>
+   <script src="bower_components/webcomponentsjs/webcomponents.js"></script>  
+   <link rel="import" href="bower_components/px-spinner/px-spinner.html"/>
+   <link rel="import" href="bower_components/px-vis-xy-chart/px-vis-xy-chart.html"/>
+  </head>
+  <body>
+   <px-spinner></px-spinner>
+   <div style="width:500px;height:500px;background-color:White;border:dotted 2px black;">
+      <px-vis-xy-chart prevent-resize="false" debounce-resize-timing="250" width="250px" height="140px" 
+	  progressive-rendering-points-per-frame="16000" progressive-rendering-min-frames="1" chart-horizontal-alignment="center" chart-vertical-alignment="center" 
+	  selection-type="xy" 
+	  chart-data ='[
+	 {
+	  "Timestamp":1466610420000,
+	  "asset1":8.2,
+	  "asset2":3.7765,
+	  "asset3":0.5
+	 },
+	 {
+	  "Timestamp":1577720820000,
+	  "asset1":9.21,
+	  "asset2":3.7765,
+	  "asset3":42.3,
+	 },
+	 {
+	  "Timestamp":1688831220000,
+	  "asset1":9.21,
+	  "asset2":17.9,
+	  "asset3":32.3
+	 }
+	]' series-config ='{
+	 "uniqueSeriesId1": {
+	   "x":"Timestamp",
+	   "y":"asset1",
+	   "name":"Asset 1",
+	   "type":"line"
+	 },
+	 "uniqueSeriesId2": {
+	   "x":"Timestamp",	 
+	   "y":"asset2",
+	   "name":"Asset 2",
+	   "type":"line"
+	 },
+	 "uniqueSeriesId3": {
+	   "x":"Timestamp",
+	   "y":"asset3",
+	   "name":"Asset 3",
+	   "type":"line"
+	 }}'></px-vis-xy-chart> 
+	</div>
+  </body>
+ </html>
