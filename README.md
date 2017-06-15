@@ -1,10 +1,7 @@
 # PreidxUI-TimeSeriesChart-yi-webapp
 This is the Demo for using PreidxUI components escapially the TimeSeriesChart to express timeseries Data.<br>
 1. You should install the required UI components you want using bower package management in your <web_abb_repository>.
-
-
-```shell
-bower install px-vis-timeseries --save```
+bower install px-vis-timeseries --save
 2. Add `<script src="bower_components/webcomponentsjs/webcomponents.js"></script>` in your html head.
 3. Add `<px-vis-timeseries options={}></<px-vis-timeseries>` in your html body.
 4. The option contains the attributes of the TimeSeriesChart.    
